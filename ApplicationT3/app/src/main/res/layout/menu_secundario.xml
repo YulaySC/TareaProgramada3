@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/preguntas"
+    android:id="@+id/menu_Secundario">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Elegir Categoría"
+        android:id="@+id/textvuewcategoria"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Preguntas"
+        android:id="@+id/textViewpreguntas"
+        android:layout_marginTop="42dp"
+        android:background="#ffefc8ff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="EditarPregunta"
+        android:id="@+id/textVieweditpregunta"
+        android:layout_below="@+id/textViewpreguntas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Preguntas"
+        android:id="@+id/buttonverpreguntas"
+        android:layout_below="@+id/textVieweditpregunta"
+        android:layout_alignLeft="@+id/buttonverrespuestas"
+        android:layout_alignStart="@+id/buttonverrespuestas"
+        android:onClick="onClickPreguntas" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTexteditpregunta"
+        android:layout_alignBottom="@+id/textVieweditpregunta"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Editar Pregunta" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Respuestas"
+        android:id="@+id/textViewrespuestas"
+        android:layout_below="@+id/buttonverpreguntas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:background="#ffffd17e" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Editar Respuestas"
+        android:id="@+id/textVieweditrespuesta"
+        android:layout_below="@+id/textViewrespuestas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Respuestas"
+        android:id="@+id/buttonverrespuestas"
+        android:layout_below="@+id/textVieweditrespuesta"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickRespuestas" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALIR"
+        android:id="@+id/buttonsalir"
+        android:layout_below="@+id/buttonverrespuestas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#ff3cfff0"
+        android:onClick="onClickSalir" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTexteditrespuesta"
+        android:layout_above="@+id/buttonverrespuestas"
+        android:layout_alignLeft="@+id/buttonsalir"
+        android:layout_alignStart="@+id/buttonsalir"
+        android:layout_alignRight="@+id/editTexteditpregunta"
+        android:layout_alignEnd="@+id/editTexteditpregunta"
+        android:hint="Editar Respuestas" />
+
+</RelativeLayout>

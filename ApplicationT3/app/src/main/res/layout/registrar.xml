@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/preguntas"
+    android:id="@+id/ventanaregistro">
+
+    <Button
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:id="@+id/buttonEntrerfromregistrar"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffff3d95"
+        android:layout_alignTop="@+id/buttonregresarfromregistrar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="44dp"
+        android:onClick="onClickIraMenuSfromRegistrar" />
+
+    <Button
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/buttonregresarfromregistrar"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffff7e2b"
+        android:onClick="onClickRegresarfromRegistrar"
+        android:layout_marginBottom="119dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/buttonEntrerfromregistrar"
+        android:layout_toStartOf="@+id/buttonEntrerfromregistrar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contraseña:"
+        android:id="@+id/textViewContraseñaRegistro"
+        android:layout_above="@+id/buttonregresarfromregistrar"
+        android:layout_alignLeft="@+id/buttonregresarfromregistrar"
+        android:layout_alignStart="@+id/buttonregresarfromregistrar"
+        android:layout_marginBottom="121dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nombre de Usuario :"
+        android:id="@+id/textViewNombreUsuarioRegistro"
+        android:layout_above="@+id/textViewContraseñaRegistro"
+        android:layout_toLeftOf="@+id/buttonEntrerfromregistrar"
+        android:layout_toStartOf="@+id/buttonEntrerfromregistrar"
+        android:layout_marginBottom="46dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNombreUsuarioRegistro"
+        android:layout_alignBottom="@+id/textViewNombreUsuarioRegistro"
+        android:layout_toRightOf="@+id/textViewNombreUsuarioRegistro"
+        android:layout_toEndOf="@+id/textViewNombreUsuarioRegistro"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Usuario" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextContraseñaRegistro"
+        android:layout_alignBottom="@+id/textViewContraseñaRegistro"
+        android:layout_toRightOf="@+id/textViewNombreUsuarioRegistro"
+        android:layout_toEndOf="@+id/textViewNombreUsuarioRegistro"
+        android:layout_alignRight="@+id/editTextNombreUsuarioRegistro"
+        android:layout_alignEnd="@+id/editTextNombreUsuarioRegistro"
+        android:hint="Contraseña" />
+
+</RelativeLayout>

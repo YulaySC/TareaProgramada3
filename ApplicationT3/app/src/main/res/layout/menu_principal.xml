@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/preguntas">
+
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sección"
+        android:id="@+id/buttonInicarSeccion"
+        android:layout_gravity="center_horizontal"
+        android:typeface="sans"
+        android:background="#ff45cbff"
+        android:onClick="onClickIraIniciar"
+        android:layout_marginTop="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/buttonRegistrarse"
+        android:layout_alignStart="@+id/buttonRegistrarse" />
+
+    <Button
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:id="@+id/buttonRegistrarse"
+        android:layout_gravity="center_horizontal"
+        android:typeface="sans"
+        android:background="#ffff3d95"
+        android:onClick="onClickIraRegistrar"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/buttonvolveraMainActyvity"
+        android:layout_alignStart="@+id/buttonvolveraMainActyvity" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:text="@string/VolveraMainActivity"
+        android:id="@+id/buttonvolveraMainActyvity"
+        android:onClick="onClickVolverMainActivity"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffff7e2b"
+        android:layout_marginBottom="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

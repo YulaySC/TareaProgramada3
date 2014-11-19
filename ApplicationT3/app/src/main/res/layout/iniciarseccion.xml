@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/preguntas"
+    android:id="@+id/ventanaInicioSeccion">
+
+    <Button
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:id="@+id/buttonEntrerfrominicio"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffff3d95"
+        android:layout_toEndOf="@+id/textViewContraseñaInicio"
+        android:layout_alignTop="@+id/buttonregresarfrominiciar"
+        android:layout_toRightOf="@+id/textViewContraseñaInicio"
+        android:onClick="onClickIraMenuSfromRegistrar" />
+
+    <Button
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/buttonregresarfrominiciar"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffff7e2b"
+        android:onClick="onClickVolveraMenuP"
+        android:layout_marginBottom="119dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textViewContraseñaInicio"
+        android:layout_alignStart="@+id/textViewContraseñaInicio" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nombre de Usuario :"
+        android:id="@+id/textViewNombreUsuarioInicio"
+        android:layout_marginBottom="73dp"
+        android:layout_above="@+id/textViewContraseñaInicio"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contraseña :"
+        android:id="@+id/textViewContraseñaInicio"
+        android:layout_marginBottom="133dp"
+        android:layout_above="@+id/buttonEntrerfrominicio"
+        android:layout_toLeftOf="@+id/editTextNombreUsuarioInicio"
+        android:layout_toStartOf="@+id/editTextNombreUsuarioInicio" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNombreUsuarioInicio"
+        android:layout_alignBottom="@+id/textViewNombreUsuarioInicio"
+        android:layout_toEndOf="@+id/textViewNombreUsuarioInicio"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textViewNombreUsuarioInicio"
+        android:hint="Usuario" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextContraseñaInicio"
+        android:layout_alignBottom="@+id/textViewContraseñaInicio"
+        android:layout_toRightOf="@+id/buttonregresarfrominiciar"
+        android:layout_toEndOf="@+id/buttonregresarfrominiciar"
+        android:layout_alignRight="@+id/editTextNombreUsuarioInicio"
+        android:layout_alignEnd="@+id/editTextNombreUsuarioInicio"
+        android:hint="Contraseña" />
+
+</RelativeLayout>
