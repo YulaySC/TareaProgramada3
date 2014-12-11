@@ -1,0 +1,59 @@
+------------------------------
+Scala
+
+Vídeos tutoriales de Scala
+https://www.youtube.com/playlist?list=PLJhlz5jde1n3Iw-TWoMuNjLNwnG2KUaD2
+
+Inicios de Scala - Explican un poco sobre cómo compilar y escribir funciones anónimas
+http://docs.scala-lang.org/es/tutorials/scala-for-java-programmers.html
+
+Scaloid 
+http://www.drdobbs.com/mobile/developing-android-apps-with-scala-and-s/240161584
+
+¿Qué es Scala?
+Con ejemplos de clases
+http://codecriticon.com/scala-empezando/
+
+Ejemplo de "Hola Mundo" en Scala
+object HelloWorld {
+ def main(args: Array[String]) {
+ println("Hello world!")
+ }
+}
+
+------------------------------
+Ruby
+
+Documentación para Ruby
+--Aprende a programar 
+https://www.ruby-lang.org/es/documentation/
+
+http://rubysur.org/aprende.a.programar/
+
+Libro de Ruby
+http://es.tldp.org/Manuales-LuCAS/doc-guia-usuario-ruby/guia-usuario-ruby.pdf
+
+
+Guías para aprender a programar en Android desde cero gratuitamente
+http://www.elandroidelibre.com/2013/11/aprender-a-programar-en-android-desde-cero-gratuitamente.html
+
+
+------------------------------
+Android
+
+Pasos para instalar Android desde 0
+http://www.elandroidelibre.com/2014/02/aprende-android-en-20-conceptos-empezando-a-programar-para-android.html
+
+:) :)
+Comparte tus sueños
+http://blog.findemor.es/2012/12/ejemplo-desarrollo-aplicacion-android-completa/
+:) :)
+
+Destripando una app
+http://www.taringa.net/posts/apuntes-y-monografias/15859281/Destripando-una-Aplicacion-Android.html
+
+Desarrolle aplicaciones Android con Eclipse
+http://www.ibm.com/developerworks/ssa/opensource/tutorials/os-eclipse-android/
+
+
+
